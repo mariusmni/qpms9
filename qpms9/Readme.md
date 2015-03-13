@@ -24,11 +24,19 @@ To clean version without mpi: make clean-nompi
 Release/qPMS9 or NoMpi/qPMS9 - will print the following:
 
 Arguments: inputFile -l <motifLength> -d <#Mutations> [-q <quorumPercent>] [-s <stackSz>] [-n nPrime] [-o <outputFile>] [-h]
+
 Where:
+
   -l: length of motif
+
   -d: max changes for planted instances of the motif
+
   -o: outputFile [stdout if not specified]
+
   -q: min percentage of strings that have motif [default 100]
+
   -s: (optional) number of lmers for which we generate common neighborhoods
+
   -n: (optional) number of sequences for which we initially find motifs
+
   -h: print this help
