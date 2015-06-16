@@ -41,11 +41,14 @@ make clean-nompi
 
 ## To run
 ```
-Release/qPMS9``
+Release/qPMS9
+```
  
 or 
 
-```NoMpi/qPMS9``` 
+```
+NoMpi/qPMS9
+``` 
 
 It will print the following:
 
