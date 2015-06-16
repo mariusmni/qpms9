@@ -1,11 +1,16 @@
 # Motif dataset generator
 
 ## To compile
+```
 make
+```
 
 ## To run
+```
 Release/qpms9-data
+```
 
+```
 Arguments: -o <outputFile> -n <nStrings> -m <stringLen> -l <motifLen> -d <motifMutations> -q <quorumPercent> -s <aSize> -a <alphabet> -r <randSeed>
 
 Where:
@@ -27,4 +32,4 @@ Where:
   -a: alphabet - specify arbitrary alphabet
 
   -r: seed for the random number generator; use the same seed for repeatable output
-
+```

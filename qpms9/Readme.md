@@ -10,19 +10,46 @@ marius.nicolae (at) engr.uconn.edu
 - make
 
 ## To compile 
-For the parallel version (recommended) type: make
+For the parallel version (recommended) type: 
+
+```sh
+make
+```
+
 The executable will be found in the Release folder.
 
-To compile without mpi (only for single core execution) type: make nompi
+To compile without mpi (only for single core execution) type: 
+
+```
+make nompi
+```
+
 The executable will be found in the NoMpi folder.
 
 ## To clean 
-For the parallel version: make clean
-To clean version without mpi: make clean-nompi
+For the parallel version: 
+
+```
+make clean
+```
+
+To clean version without mpi: 
+
+```
+make clean-nompi
+```
 
 ## To run
-Release/qPMS9 or NoMpi/qPMS9 - will print the following:
+```
+Release/qPMS9``
+ 
+or 
 
+```NoMpi/qPMS9``` 
+
+It will print the following:
+
+```
 Arguments: inputFile -l <motifLength> -d <#Mutations> [-q <quorumPercent>] [-s <stackSz>] [-n nPrime] [-o <outputFile>] [-h]
 
 Where:
@@ -40,3 +67,4 @@ Where:
   -n: (optional) number of sequences for which we initially find motifs
 
   -h: print this help
+```
