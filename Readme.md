@@ -25,5 +25,12 @@ These have been compiled on Windows 7 using MinGW.
 
 Please consult the [examples/win](examples/win) for sample input/output and scripts to run the programs. 
 
-Copyright Marius Nicolae 
+## Contact
+
+For questions, suggestions, bugs please contact:
+
+```
+Marius Nicolae 
 marius.nicolae (at) engr.uconn.edu 
+```
+
