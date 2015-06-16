@@ -10,7 +10,7 @@ http://www.nature.com/srep/2015/150115/srep07813/full/srep07813.html
 
 ## Source code
 
-See the qpms9/ folder for qPMS9 source code. For details on how to compile and run qPMS9 see the associated Readme.md.
+See the [qpms9](qpms9) folder for qPMS9 source code. For details on how to compile and run qPMS9 see the associated [Readme.md](qpms9/Readme.md).
 
 See the qpms9-data/ folder for dataset generator source code. 
 
