@@ -34,8 +34,8 @@ public:
 
 	static long totalBytesRequired(int nLmers) {
 		long nRows = nextPow2(nLmers);
-		long rowSize = nRows / (8 * sizeof(**pairOk)) + 1;
-		return nRows * rowSize * sizeof(**pairOk);
+		long rowSize = nRows / (8 * sizeof(uint32)) + 1;
+		return nRows * rowSize * sizeof(uint32);
 	}
 
 	uint32 **pairOk;
