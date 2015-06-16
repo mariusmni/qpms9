@@ -19,9 +19,9 @@ See the [qpms9-data](qpms9-data) folder for dataset generator source code.
 You can find precompiled windows binaries in the [examples/win](examples/win) folder.
 These have been compiled on Windows 7 using MinGW. 
 
-* Precompiled qpms9 windows executable without parallel execution (no MPI) can be found [here](examples/win/qpms9-nompi.exe).
+* Precompiled qpms9 windows executable without parallel execution (no MPI) can be found [here](examples/win/qpms9-nompi.exe?raw=true).
 
-* Precompiled windows [dataset generator](qpms9-data) can be found [here](examples/win/qpms9-data.exe). 
+* Precompiled windows [dataset generator](qpms9-data) can be found [here](examples/win/qpms9-data.exe?raw=true). 
 
 Please consult the [examples/win](examples/win) for sample input/output and scripts to run the programs. 
 
