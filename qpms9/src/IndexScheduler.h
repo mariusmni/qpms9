@@ -8,11 +8,11 @@
 #ifndef INDEXSCHEDULER_H_
 #define INDEXSCHEDULER_H_
 #include <iostream>
-#include <pthread.h>
 #include <ctime>
 using namespace std;
 
 #ifndef NOMPI
+#include <pthread.h>
 #include <mpi.h>
 #endif
 

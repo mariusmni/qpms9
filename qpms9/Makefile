@@ -1,3 +1,5 @@
+.PHONY: all clean nompi clean-nompi
+
 all:
 	make -C Release/
 
