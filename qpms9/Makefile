@@ -1,4 +1,4 @@
-.PHONY: all clean nompi clean-nompi
+.PHONY: all clean nompi clean-nompi debug clean-debug
 
 all:
 	make -C Release/
@@ -11,3 +11,9 @@ nompi:
 
 clean-nompi:
 	make -C NoMpi/ clean
+
+debug:
+	make -C Debug/
+
+clean-debug:
+	make -C Debug/ clean
