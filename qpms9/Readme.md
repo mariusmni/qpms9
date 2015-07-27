@@ -5,7 +5,7 @@ marius.nicolae (at) engr.uconn.edu
 
 ## Prerequisites: 
 - unix or cygwin environment
-- openmpi library (mpi and mpi_cxx libraries are required for parallel execution)
+- openmpi library (mpiCC required for compiling parallel version)
 - g++
 - make
 
@@ -16,7 +16,7 @@ For the parallel version (recommended) type:
 make
 ```
 
-The executable will be found in the Release folder.
+The executable, named qpms9, will be found in the Release folder.
 
 To compile without mpi (only for single core execution) type: 
 
@@ -25,6 +25,13 @@ make nompi
 ```
 
 The executable will be found in the NoMpi folder.
+
+To compile with debug info and without optimizations type:
+
+```
+make debug
+```
+The executable will be found in the Debug folder.
 
 ## To clean 
 For the parallel version: 
@@ -39,15 +46,27 @@ To clean version without mpi:
 make clean-nompi
 ```
 
+To clean debug version: 
+
+```
+make clean-debug
+```
+
 ## To run
 ```
-Release/qPMS9
+Release/qpms9
 ```
  
 or 
 
 ```
-NoMpi/qPMS9
+NoMpi/qpms9
+``` 
+
+or
+
+```
+Debug/qpms9
 ``` 
 
 It will print the following:
